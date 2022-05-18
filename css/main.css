@@ -98,6 +98,7 @@ textarea {
     font-size: 1em;
     text-align: left;
     color: #e2e3ed;
+    background: #527158;
 }
    
   ul, 
@@ -142,6 +143,10 @@ textarea {
 
   img{
     width: 100%;
+  }
+
+  figure{
+    margin: 0;
   }
 
 
@@ -195,6 +200,14 @@ textarea {
   
 header nav ul li {
   font-size: 1.125em;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
   footer {
@@ -260,6 +273,10 @@ header nav ul li {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/rawpixel-800820-unsplash1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
   }
   
   .features h2 {
@@ -298,6 +315,8 @@ header nav ul li {
     width: 55%;
     margin: 20px 0;
   }
+
+
   
   /* ==========================================================================
      About Page
@@ -480,7 +499,7 @@ header nav ul li {
 
   header .content-wrapper {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   header nav {
@@ -490,9 +509,18 @@ header nav ul li {
   header nav ul {
     justify-content: space-between;
   }
+  
+  header nav ul li{
+    padding: 30px;
+  }
 
   .header-divider {
     display: none;
+  }
+
+  header figure{
+    width: 30%;
+  
   }
   /* Hero Area */
 
