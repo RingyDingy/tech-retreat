@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/***General***/
+/***Global***/
 
 
    html {
@@ -138,6 +138,10 @@ textarea {
   .content-wrapper {
    width: 90%;
    margin: 50px 0;
+  }
+
+  img{
+    width: 100%;
   }
 
 
@@ -235,6 +239,10 @@ header nav ul li {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/jake-melara-30679-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   /* Aside */
