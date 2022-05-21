@@ -252,8 +252,17 @@ header figure {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
   }
   
+  footer .social-icons p i {
+    font-size: 1.3em;
+  }
+
+
   footer .copyright {
     margin: 20px 0;
   }
@@ -599,6 +608,18 @@ header figure {
   footer .copyright {
     width: 100%;
   }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   /* ==========================================================================
    About Page
@@ -695,6 +716,19 @@ FAQ Page
 .faq h2 {
   width: 100%;
 }
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 }
 
